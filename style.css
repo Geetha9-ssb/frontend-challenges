@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Inter-Regular'; /* Name your custom font */
+    src: url('assets/fonts/static/Inter-Regular.ttf') format('woff2'), /* Specify the font file format */
+         url('assets/fonts/static/Inter-Regular.ttf') format('woff'); /* Provide fallback formats if needed */
+    /* You can also include other font properties here, like font-weight and font-style */
+  }
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background-color:hsl(0, 0%, 8%);
+    height: 100vh;
+    font-family: "Inter-Regular";
+}
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box1{
+    background-color:hsl(0, 0%, 12%);
+    
+    width: 320px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    
+}
+.img-1{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+p{
+    margin-top:6px;
+   
+}
+ul{
+    list-style-type: none;
+    margin-top: 25px; 
+    display: flex;
+    flex-direction: column;
+   
+}
+li{
+    height: 40px;
+    width: 268px; 
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    margin-bottom:12px;
+}
+
+.github:hover{
+  background-color:hsl(75, 94%, 57%);
+  color:black;
+}
+
+.github{
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.attribution{
+    color: white;
+}
+.attribution a{
+    text-decoration: none;
+}
